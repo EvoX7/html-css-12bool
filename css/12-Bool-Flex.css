@@ -25,12 +25,14 @@
 .row {
    display: flex;
    flex-wrap: wrap;
-   padding: 10px;
+   margin:2px;
 
 }
 
 [class*="col-"] {
    flex: 0 0 auto;
+   
+   
 
 }
 
@@ -38,6 +40,7 @@
    flex-grow: 1;
    flex-basis: 0;
    max-width: 100%;
+  
    
 
 
@@ -48,17 +51,15 @@
    text-align: center;
 }
 
-.bg-2 {
+
+
+.bg-1 {
    background-color: rgb(12, 125, 255);
 
 }
 
 .bg-2 {
    background-color: salmon;
-}
-
-.p-1 {
-   padding: 10px;
 }
 
 .p-2 {

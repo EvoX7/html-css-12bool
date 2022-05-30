@@ -1,0 +1,22 @@
+:root {
+    --main-color: rgb(12, 125, 255);
+    
+  
+  }
+
+  body {
+      color: white;
+      font-weight: bold;
+      
+  }
+
+  h1 {
+      color: black;
+  }
+
+  .row {
+      background-color: var(--main-color);
+      
+  }
+
+ 

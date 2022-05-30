@@ -35,6 +35,10 @@
  .box-bordered {
    border: 1px solid white;
  }
+
+ .box-bordered-2 {
+   border: 1px solid rgb(12, 125, 255);
+ }
  
  .center {
    justify-content: center;
